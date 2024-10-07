@@ -1,0 +1,97 @@
+[
+    {
+      "id": 1,
+      "name": "Mezcladora L1",
+      "status": "Operando",
+      "health": 85,
+      "healthHistory": [
+        { "date": "2024-09-01", "health": 100 },
+        { "date": "2024-09-02", "health": 98 },
+        { "date": "2024-09-03", "health": 96 },
+        { "date": "2024-09-04", "health": 95 },
+        { "date": "2024-09-05", "health": 93 },
+        { "date": "2024-09-06", "health": 90 },
+        { "date": "2024-09-07", "health": 88 },
+        { "date": "2024-09-08", "health": 87 },
+        { "date": "2024-09-09", "health": 86 },
+        { "date": "2024-09-10", "health": 85 }
+      ],
+      "lastMaintenance": "2024-09-01"
+    },
+    {
+      "id": 2,
+      "name": "Mezcladora L2",
+      "status": "En Mantenimiento",
+      "health": 45,
+      "healthHistory": [
+        { "date": "2024-09-01", "health": 60 },
+        { "date": "2024-09-02", "health": 58 },
+        { "date": "2024-09-03", "health": 55 },
+        { "date": "2024-09-04", "health": 53 },
+        { "date": "2024-09-05", "health": 50 },
+        { "date": "2024-09-06", "health": 48 },
+        { "date": "2024-09-07", "health": 47 },
+        { "date": "2024-09-08", "health": 46 },
+        { "date": "2024-09-09", "health": 45 },
+        { "date": "2024-09-10", "health": 45 }
+      ],
+      "lastMaintenance": "2024-08-15"
+    },
+    {
+      "id": 3,
+      "name": "Peletizadora",
+      "status": "Fuera de servicio",
+      "health": 30,
+      "healthHistory": [
+        { "date": "2024-09-01", "health": 50 },
+        { "date": "2024-09-02", "health": 48 },
+        { "date": "2024-09-03", "health": 45 },
+        { "date": "2024-09-04", "health": 42 },
+        { "date": "2024-09-05", "health": 40 },
+        { "date": "2024-09-06", "health": 38 },
+        { "date": "2024-09-07", "health": 35 },
+        { "date": "2024-09-08", "health": 33 },
+        { "date": "2024-09-09", "health": 31 },
+        { "date": "2024-09-10", "health": 30 }
+      ],
+      "lastMaintenance": "2024-07-20"
+    },
+    {
+      "id": 4,
+      "name": "Molino martillo",
+      "status": "Operando",
+      "health": 70,
+      "healthHistory": [
+        { "date": "2024-09-01", "health": 80 },
+        { "date": "2024-09-02", "health": 78 },
+        { "date": "2024-09-03", "health": 76 },
+        { "date": "2024-09-04", "health": 74 },
+        { "date": "2024-09-05", "health": 72 },
+        { "date": "2024-09-06", "health": 71 },
+        { "date": "2024-09-07", "health": 70 },
+        { "date": "2024-09-08", "health": 70 },
+        { "date": "2024-09-09", "health": 70 },
+        { "date": "2024-09-10", "health": 70 }
+      ],
+      "lastMaintenance": "2024-09-05"
+    },
+    {
+      "id": 5,
+      "name": "Molino rodillo",
+      "status": "Operando",
+      "health": 95,
+      "healthHistory": [
+        { "date": "2024-09-01", "health": 98 },
+        { "date": "2024-09-02", "health": 97 },
+        { "date": "2024-09-03", "health": 97 },
+        { "date": "2024-09-04", "health": 96 },
+        { "date": "2024-09-05", "health": 96 },
+        { "date": "2024-09-06", "health": 95 },
+        { "date": "2024-09-07", "health": 95 },
+        { "date": "2024-09-08", "health": 95 },
+        { "date": "2024-09-09", "health": 95 },
+        { "date": "2024-09-10", "health": 95 }
+      ],
+      "lastMaintenance": "2024-09-10"
+    }
+  ]
