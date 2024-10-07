@@ -4,14 +4,20 @@ import { store } from '@/redux/store';
 import { ApolloProvider } from '@apollo/client';
 import client from '../apollo/client';
 import '../styles/globals.css';
+import Head from 'next/head';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <Provider store={store}>
-      <ApolloProvider client={client}>
-        <Component {...pageProps} />
-      </ApolloProvider>
-    </Provider>
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <Provider store={store}>
+        <ApolloProvider client={client}>
+          <Component {...pageProps} />
+        </ApolloProvider>
+      </Provider>
+    </>
   );
 };
 

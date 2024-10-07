@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="App">
-      <h1>Estado de Máquinas de la Fábrica</h1>
+      <h1>Estado de Máquinas</h1>
       <div className="machine-list">
         {machines.map((machine) => (
           <Link key={machine.id} href={`/machines/${machine.id}`} passHref className={styles.link}>
