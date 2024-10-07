@@ -44,11 +44,17 @@ const MachineDetail = () => {
       <p>Índice de Salud: {machine.health}</p>
       <p>Último Mantenimiento: {machine.lastMaintenance}</p>
       <h3>Historial de Salud</h3>
-      <LineChart healthHistory={machine.healthHistory} />
-      {machine.health < 50 && (
-        <div className="alert">¡Atención! La máquina necesita mantenimiento pronto.</div>
-      )}
-      <button onClick={() => router.push('/')}>Regresar a la Lista</button>
+      <div style={{ width: '65%', height: 'auto', margin: '0 auto', textAlign: 'center' }}>
+        <LineChart healthHistory={machine.healthHistory} />
+        {machine.health < 50 && (
+          <div className="alert">¡Atención!
+            La máquina necesita mantenimiento pronto.</div>
+        )}
+      </div>
+
+      <div style={{ textAlign: 'center' }}>
+        <button style={{ marginTop: '20px' }} onClick={() => router.push('/')}>Regresar a la Lista</button>
+      </div>
     </div>
   );
 };
